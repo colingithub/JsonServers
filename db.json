@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "UserId": 123,
+      "UserId": "123",
       "Name": "Colin",
       "EmailA": "colinga7@yahoo.co.uk",
       "EmailB": "colinga7@yahoo.co.uk",
@@ -9,7 +9,7 @@
       "AccessStatus": "Paid"
     },
     {
-      "UserId": 456,
+      "UserId": "456",
       "Name": "Zak",
       "EmailA": "zak_willis@hotmail.com",
       "EmailB": "zak_willis@hotmail.com",
@@ -17,7 +17,7 @@
       "AccessStatus": "Paid"
     },
     {
-      "UserId": 789,
+      "UserId": "789",
       "Name": "Client",
       "EmailA": "cryptostattoclient1@yahoo.com",
       "EmailB": "cryptostattoclient1@yahoo.com",
