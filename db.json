@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "users": [
     {
       "UserId": 123,
       "Name": "Colin",
