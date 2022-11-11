@@ -17,12 +17,44 @@
       "AccessStatus": "Paid"
     },
     {
-      "UserId": 789,
-      "Name": "Client",
+      "UserId": 460,
+      "Name": "Client1",
       "EmailA": "cryptostattoclient1@yahoo.com",
-      "EmailB": "cryptostattoclient1@yahoo.com",
+      "EmailB": "cryptostattoclient1@gmail.com",
       "Password": "CSpassword2020!",
       "AccessStatus": "Not Paid"
+    },
+{
+      "UserId": 461,
+      "Name": "Client2",
+      "EmailA": "cryptostattoclient2@yahoo.com",
+      "EmailB": "cryptostattoclient2@gmail.com",
+      "Password": "CSpassword2020!",
+      "AccessStatus": "Bronze"
+    },
+{
+      "UserId": 462,
+      "Name": "Client3",
+      "EmailA": "cryptostattoclient3@yahoo.com",
+      "EmailB": "cryptostattoclient3@gmail.com",
+      "Password": "CSpassword2020!",
+      "AccessStatus": "Silver"
+    },
+{
+      "UserId": 463,
+      "Name": "Client4",
+      "EmailA": "cryptostattoclient4@yahoo.com",
+      "EmailB": "cryptostattoclient4@gmail.com",
+      "Password": "CSpassword2020!",
+      "AccessStatus": "Gold"
+    },
+{
+      "UserId": 464,
+      "Name": "Bill",
+      "EmailA": "billgates@microsoft.com",
+      "EmailB": "billgates@yahoo.com",
+      "Password": "CSpassword2020!",
+      "AccessStatus": "Platinum"
     }
   ],
   "profile": {
