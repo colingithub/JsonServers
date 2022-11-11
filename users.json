@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "UserId": 123,
+      "Name": "Colin",
+      "EmailA": "colinga7@yahoo.co.uk",
+      "EmailB": "colinga7@yahoo.co.uk",
+      "Password": "CGpassword2020!",
+      "AccessStatus": "Paid"
+    },
+    {
+      "UserId": 456,
+      "Name": "Zak",
+      "EmailA": "zak_willis@hotmail.com",
+      "EmailB": "zak_willis@hotmail.com",
+      "Password": "ZWpassword2020!",
+      "AccessStatus": "Paid"
+    },
+    {
+      "UserId": 789,
+      "Name": "Client",
+      "EmailA": "cryptostattoclient1@yahoo.com",
+      "EmailB": "cryptostattoclient1@yahoo.com",
+      "Password": "CSpassword2020!",
+      "AccessStatus": "Not Paid"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
