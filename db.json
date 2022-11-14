@@ -6,14 +6,12 @@
       "EmailA": "colinga7@yahoo.co.uk",
       "EmailB": "colinga7@yahoo.co.uk",
       "Password": "CGpassword2020!",
-      "AccessStatus": "Paid"
-    },
-    {"purchases": [
+      "AccessStatus": "Paid", "purchases": [
      {
       "ReportName": "Report1",
       "Start": "2022-11-14T16:47:24.5344141Z",
       "End": "2022-11-15T16:47:24.5344141Z"
-     }]
+     }],
     },
     {
       "UserId": 456,
