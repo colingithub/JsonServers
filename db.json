@@ -1,15 +1,15 @@
 {
     "posts": [
         {
-          
-        "UserId": 123,
+              "UserId": 123,
 			  "Name": "Colin",
 			  "EmailA": "colinga7@yahoo.co.uk",
 			  "EmailB": "colinga7@yahoo.co.uk",
 			  "Password": "CGpassword2020!",
 			  "AccessStatus": "Paid",
             "purchases": [
-                {
+                {     
+				      "Id":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-16T16:47:24.5344141Z"
@@ -24,12 +24,14 @@
 			  "Password": "ZWpassword2020!",
 			  "AccessStatus": "Paid",
             "purchases": [
-                {
+                {      
+				      "Id":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-15T16:47:24.5344141Z"
                 },
-				{
+				{       
+				      "Id":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-20T16:47:24.5344141Z"
@@ -53,7 +55,8 @@
 			  "Password": "CSpassword2020!",
 			  "AccessStatus": "Bronze",
             "purchases": [
-                {
+                {      
+				      "Id":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-15T16:47:24.5344141Z"
@@ -69,11 +72,13 @@
 			  "AccessStatus": "Silver",
             "purchases": [
                 {
+				      "Id":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-15T16:47:24.5344141Z"
                 },
 				{
+				      "Id":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-20T16:47:24.5344141Z"
@@ -88,17 +93,20 @@
 			  "Password": "CSpassword2020!",
 			  "AccessStatus": "Gold",
             "purchases": [
-                {
+                {     
+				      "Id":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-15T16:47:24.5344141Z"
                 },
 				{
+				      "Id":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-20T16:47:24.5344141Z"
                 },
 				{
+				      "Id":3,
 					  "ReportName": "Report3",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-22T16:47:24.5344141Z"
@@ -106,7 +114,7 @@
             ]
         },
 		{
-			    "UserId": 464,
+			      "UserId": 464,
 				  "Name": "Bill",
 				  "EmailA": "billgates@microsoft.com",
 				  "EmailB": "billgates@yahoo.com",
@@ -114,21 +122,25 @@
 				  "AccessStatus": "Platinum",
             "purchases": [
                 {
+				      "Id":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-15T16:47:24.5344141Z"
                 },
 				{
+				      "Id":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-20T16:47:24.5344141Z"
                 },
 				{
+				      "Id":3,
 					  "ReportName": "Report3",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-22T16:47:24.5344141Z"
                 },
 				{
+				      "Id":4,
 					  "ReportName": "Report4",
 					  "Start": "2022-11-14T16:47:24.5344141Z",
 					  "End": "2022-11-28T16:47:24.5344141Z"
