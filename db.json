@@ -1,63 +1,142 @@
 {
-  "posts": [
-    {
-      "UserId": 123,
-      "Name": "Colin",
-      "EmailA": "colinga7@yahoo.co.uk",
-      "EmailB": "colinga7@yahoo.co.uk",
-      "Password": "CGpassword2020!",
-      "AccessStatus": "Paid"
-    },
-    {
-      "UserId": 456,
-      "Name": "Zak",
-      "EmailA": "zak_willis@hotmail.com",
-      "EmailB": "zak_willis@hotmail.com",
-      "Password": "ZWpassword2020!",
-      "AccessStatus": "Paid"
-    },
-    {
-      "UserId": 460,
-      "Name": "Client1",
-      "EmailA": "cryptostattoclient1@yahoo.com",
-      "EmailB": "cryptostattoclient1@gmail.com",
-      "Password": "CSpassword2020!",
-      "AccessStatus": "Not Paid"
-    },
-{
-      "UserId": 461,
-      "Name": "Client2",
-      "EmailA": "cryptostattoclient2@yahoo.com",
-      "EmailB": "cryptostattoclient2@gmail.com",
-      "Password": "CSpassword2020!",
-      "AccessStatus": "Bronze"
-    },
-{
-      "UserId": 462,
-      "Name": "Client3",
-      "EmailA": "cryptostattoclient3@yahoo.com",
-      "EmailB": "cryptostattoclient3@gmail.com",
-      "Password": "CSpassword2020!",
-      "AccessStatus": "Silver"
-    },
-{
-      "UserId": 463,
-      "Name": "Client4",
-      "EmailA": "cryptostattoclient4@yahoo.com",
-      "EmailB": "cryptostattoclient4@gmail.com",
-      "Password": "CSpassword2020!",
-      "AccessStatus": "Gold"
-    },
-{
-      "UserId": 464,
-      "Name": "Bill",
-      "EmailA": "billgates@microsoft.com",
-      "EmailB": "billgates@yahoo.com",
-      "Password": "CSpassword2020!",
-      "AccessStatus": "Platinum"
-    }
-  ],
-  "profile": {
+    "posts": [
+        {
+          
+        "UserId": 123,
+			  "Name": "Colin",
+			  "EmailA": "colinga7@yahoo.co.uk",
+			  "EmailB": "colinga7@yahoo.co.uk",
+			  "Password": "CGpassword2020!",
+			  "AccessStatus": "Paid",
+            "purchases": [
+                {
+					  "ReportName": "Report1",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-16T16:47:24.5344141Z"
+                }
+            ]
+        },
+        {
+			  "UserId": 456,
+			  "Name": "Zak",
+			  "EmailA": "zak_willis@hotmail.com",
+			  "EmailB": "zak_willis@hotmail.com",
+			  "Password": "ZWpassword2020!",
+			  "AccessStatus": "Paid",
+            "purchases": [
+                {
+					  "ReportName": "Report1",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-15T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report2",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-20T16:47:24.5344141Z"
+                }
+            ]
+        },
+		{
+			  "UserId": 460,
+			  "Name": "Client1",
+			  "EmailA": "cryptostattoclient1@yahoo.com",
+			  "EmailB": "cryptostattoclient1@gmail.com",
+			  "Password": "CSpassword2020!",
+			  "AccessStatus": "Not Paid",
+            "purchases": null
+        },
+		{
+			  "UserId": 461,
+			  "Name": "Client2",
+			  "EmailA": "cryptostattoclient2@yahoo.com",
+			  "EmailB": "cryptostattoclient2@gmail.com",
+			  "Password": "CSpassword2020!",
+			  "AccessStatus": "Bronze",
+            "purchases": [
+                {
+					  "ReportName": "Report1",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-15T16:47:24.5344141Z"
+                }
+            ]
+        },
+		{
+			  "UserId": 462,
+			  "Name": "Client3",
+			  "EmailA": "cryptostattoclient3@yahoo.com",
+			  "EmailB": "cryptostattoclient3@gmail.com",
+			  "Password": "CSpassword2020!",
+			  "AccessStatus": "Silver",
+            "purchases": [
+                {
+					  "ReportName": "Report1",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-15T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report2",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-20T16:47:24.5344141Z"
+                }
+            ]
+        },
+		{
+			  "UserId": 463,
+			  "Name": "Client4",
+			  "EmailA": "cryptostattoclient4@yahoo.com",
+			  "EmailB": "cryptostattoclient4@gmail.com",
+			  "Password": "CSpassword2020!",
+			  "AccessStatus": "Gold",
+            "purchases": [
+                {
+					  "ReportName": "Report1",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-15T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report2",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-20T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report3",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-22T16:47:24.5344141Z"
+                }
+            ]
+        },
+		{
+			    "UserId": 464,
+				  "Name": "Bill",
+				  "EmailA": "billgates@microsoft.com",
+				  "EmailB": "billgates@yahoo.com",
+				  "Password": "CSpassword2020!",
+				  "AccessStatus": "Platinum",
+            "purchases": [
+                {
+					  "ReportName": "Report1",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-15T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report2",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-20T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report3",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-22T16:47:24.5344141Z"
+                },
+				{
+					  "ReportName": "Report4",
+					  "Start": "2022-11-14T16:47:24.5344141Z",
+					  "End": "2022-11-28T16:47:24.5344141Z"
+                }
+            ]
+        }
+    ],
+   "profile": {
     "name": "typicode"
   }
 }
