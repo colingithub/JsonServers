@@ -9,13 +9,15 @@
 			  "AccessStatus": "Paid",
             "purchases": [
                 {     
-				      "Id":1,
+				      "UserId": 123,
+				      "ReportId":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-10T16:00:00",
 					  "End": "2022-11-15T16:00:00"
                 },
-		 {     
-				      "Id":2,
+		 {            
+		                      "UserId": 123,
+				      "ReportId":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-10T16:00:00",
 					  "End": "2022-11-23T16:00:00"
@@ -31,13 +33,15 @@
 			  "AccessStatus": "Paid",
             "purchases": [
                 {      
-				      "Id":1,
+				      "UserId": 456,
+				      "ReportId":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-15T16:47:00"
                 },
-				{       
-				      "Id":2,
+				{     
+				      "UserId": 456,   
+				      "ReportId":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-20T16:47:00"
@@ -62,7 +66,8 @@
 			  "AccessStatus": "Bronze",
             "purchases": [
                 {      
-				      "Id":1,
+				      "UserId": 461,
+				      "ReportId":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-12T16:47:00",
 					  "End": "2022-11-14T16:47:00"
@@ -77,14 +82,16 @@
 			  "Password": "CSpassword2020!",
 			  "AccessStatus": "Silver",
             "purchases": [
-                {
-				      "Id":1,
+                {     
+				      "UserId": 462,
+				      "ReportId":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-15T16:47:00"
                 },
 				{
-				      "Id":2,
+				      "UserId": 462,
+				      "ReportId":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-20T16:47:00"
@@ -100,19 +107,22 @@
 			  "AccessStatus": "Gold",
             "purchases": [
                 {     
-				      "Id":1,
+				      "UserId": 463,
+				      "ReportId":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-15T16:47:00"
                 },
 				{
-				      "Id":2,
+				      "UserId": 463,
+				      "ReportId":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-20T16:47:00"
                 },
 				{
-				      "Id":3,
+				      "UserId": 463,
+				      "ReportId":3,
 					  "ReportName": "Report3",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-22T16:47:00"
@@ -128,25 +138,29 @@
 				  "AccessStatus": "Platinum",
             "purchases": [
                  {
-				      "Id":1,
+				      "UserId": 464,
+				      "ReportId":1,
 					  "ReportName": "Report1",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-15T16:47:00"
                 },
 				{
-				      "Id":2,
+				      "UserId": 464,
+				      "ReportId":2,
 					  "ReportName": "Report2",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-20T16:47:00"
                 },
 				{
-				      "Id":3,
+				      "UserId": 464,
+				      "ReportId":3,
 					  "ReportName": "Report3",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-22T16:47:00"
                 },
 				{
-				      "Id":4,
+				      "UserId": 464,
+				      "ReportId":4,
 					  "ReportName": "Report4",
 					  "Start": "2022-11-14T16:47:00",
 					  "End": "2022-11-28T16:47:00"
