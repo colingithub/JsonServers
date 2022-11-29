@@ -3,6 +3,24 @@
 	    
 	   
         {
+		"AllowedRoles": [
+    {
+      "RoleId": "1",
+      "Name": "Bronze"
+    },
+    {
+      "RoleId": "2",
+      "Name": "Silver"
+    },
+    {
+      "RoleId": "3",
+      "Name": "Gold"
+    },
+    {
+      "RoleId": "4",
+      "Name": "Platinum"
+    }
+  ],
               "UserId": 123,
 			  "Name": "Colin",
 			  "EmailA": "colinga7@yahoo.co.uk",
